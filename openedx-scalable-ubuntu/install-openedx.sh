@@ -3,6 +3,8 @@
 # Licensed under the MIT license. See LICENSE file on the project webpage for details.
 set -x
 
+sudo apt-get install git-all
+
 setup() {
   if [[ ! -d /lex ]]; then
     mkdir /lex

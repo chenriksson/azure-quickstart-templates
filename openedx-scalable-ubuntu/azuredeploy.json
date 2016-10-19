@@ -149,7 +149,7 @@
     "mySqlVhdContainerName": "[concat(variables('mySqlVmName'), 'vhd')]",
     "mySqlPublicIPAddressName": "[concat(variables('mySqlVmName'), 'pip')]",
     "mySqlOSDiskName": "[concat(variables('mySqlVmName'), 'osdisk')]",
-    "scriptDownloadUri": "https://raw.githubusercontent.com/azure/azure-quickstart-templates/master/openedx-scalable-ubuntu/",
+    "scriptDownloadUri": "https://raw.githubusercontent.com/chenriksson/azure-quickstart-templates/lex/perf/openedx-scalable-ubuntu/",
     "installScript": "install-openedx.sh",
     "mongoInstallCommand": "[concat('bash -c ''nohup ./', variables('installScript'), ' mongo  </dev/null &>/var/log/azure/install-openedx-mongo.log''')]",
     "mySqlInstallCommand": "[concat('bash -c ''nohup ./', variables('installScript'), ' mysql  </dev/null &>/var/log/azure/install-openedx-mysql.log''')]",
